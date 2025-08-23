@@ -28,7 +28,7 @@ export default function SearchFilter({ onSearch, onCategoryChange }) {
             setSearch(e.target.value);
             onSearch(e.target.value);
           }}
-          className="w-full pl-12 pr-4 py-2 rounded-full border border-green-300 bg-white/70 backdrop-blur-sm shadow-sm placeholder-gray-400 transition-all
+          className="w-full pl-12 pr-4 py-2 rounded-full border text-gray-500 border-green-300 bg-white/70 backdrop-blur-sm shadow-sm placeholder-gray-400 transition-all
                      focus:outline-none focus:border-green-600 focus:ring-0"
         />
       </div>

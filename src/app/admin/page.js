@@ -72,7 +72,7 @@ export default function PlantNurseryDashboard() {
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
-              className="peer w-full px-4 py-3 rounded-xl border border-green-300 focus:border-green-500 focus:ring-green-500 focus:outline-none transition placeholder-transparent"
+              className="peer w-full px-4 py-3 rounded-xl border text-gray-500 border-green-300 focus:border-green-500 focus:ring-green-500 focus:outline-none transition placeholder-transparent"
             />
 
             <label className="absolute left-4 top-3 text-gray-400 text-base peer-placeholder-shown:top-3 peer-placeholder-shown:text-gray-400 peer-placeholder-shown:text-base peer-focus:-top-2 peer-focus:text-green-600 peer-focus:text-sm transition-all">
@@ -88,7 +88,7 @@ export default function PlantNurseryDashboard() {
               value={price}
               onChange={(e) => setPrice(e.target.value)}
               required
-              className="peer w-full px-4 py-3 rounded-xl border border-green-300 focus:border-green-500 focus:ring-green-500 focus:outline-none transition placeholder-transparent"
+              className="peer w-full px-4 py-3 rounded-xl border text-gray-500 border-green-300 focus:border-green-500 focus:ring-green-500 focus:outline-none transition placeholder-transparent"
             />
             <label className="absolute left-4 top-3 text-gray-400 text-base peer-placeholder-shown:top-3 peer-placeholder-shown:text-gray-400 peer-placeholder-shown:text-base peer-focus:-top-2 peer-focus:text-green-600 peer-focus:text-sm transition-all">
               Price
@@ -104,7 +104,7 @@ export default function PlantNurseryDashboard() {
                   type="button"
                   key={cat}
                   onClick={() => handleCategoryChange(cat)}
-                  className={`px-4 py-2 rounded-full border font-medium transition-all ${
+                  className={`px-4 py-2 text-gray-500 rounded-full border font-medium transition-all ${
                     selectedCategories.includes(cat)
                       ? "bg-green-600 text-white shadow-md"
                       : "bg-white border-green-300 hover:bg-green-50"
@@ -122,18 +122,18 @@ export default function PlantNurseryDashboard() {
               type="checkbox"
               checked={inStock}
               onChange={(e) => setInStock(e.target.checked)}
-              className="w-5 h-5 accent-green-600"
+              className="w-5 h-5 text-gray-500 accent-green-600"
             />
             <span className="text-gray-700 font-medium">In Stock</span>
           </label>
 
-          {/* Image URL */}
+          {/* Image */}
           <div className="relative">
             <input
               type="file"
               accept="image/*"
               onChange={(e) => setImageFile(e.target.files[0])}
-              className="w-full px-4 py-3 rounded-xl border border-green-300 focus:border-green-500 focus:ring-green-500 focus:outline-none transition"
+              className="w-full text-gray-500 px-4 py-3 rounded-xl border border-green-300 focus:border-green-500 focus:ring-green-500 focus:outline-none transition"
             />
             {imageFile && (
               <img
