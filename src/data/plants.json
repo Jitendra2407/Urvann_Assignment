@@ -1,0 +1,1052 @@
+[
+  {
+    "name": "Indian Grass",
+    "price": 14.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/eKKJfo2NIsP7SN79mfbhXiECvho=/600x400/indian-grass-plant-profile-5069914-hero-11f6c93acf3b45e99b02e805e5ac56c9.jpg"
+  },
+  {
+    "name": "Paperbark Maple",
+    "price": 48.5,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/MYk1xX3XUAo9FuhCHxGXquJ_j28=/600x400/growing-the-paperbark-maple-acer-griseum-3269319-08-5d805c38b38f4997a524f75cf82c5477.jpg"
+  },
+  {
+    "name": "St. John's Wort",
+    "price": 12.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/MJMCPWfVOdYa5v_dIE7Ad9WTwrs=/600x400/st-johns-wort-plant-profile-4772327-04-ec8172ec9172429d829f65356da823f7.jpg"
+  },
+  {
+    "name": "Ninebark",
+    "price": 22.99,
+    "categories": ["Outdoor"],
+    "inStock": false,
+    "imageUrl": "https://www.thespruce.com/thmb/VYF6zDpf2_ErY3rhWkK6oUjdOyg=/600x400/ninebark-shrub-growing-profile-3269220_01-5806a4b6caf04832a296900e3e8729b3.jpg"
+  },
+  {
+    "name": "Monstera Pinnatipartita",
+    "price": 38.0,
+    "categories": ["Indoor", "Air Purifying", "Home Decor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/hOxkLySLsosn07dGOMZ-2-dW5z4=/600x400/GettyImages-1314918649-b81ee60ee85d448cb2dd15ef4476da1b.jpg"
+  },
+  {
+    "name": "Miniature Rose",
+    "price": 18.5,
+    "categories": ["Indoor", "Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/Glh7hE9XtWNe6Alv0uxl-gBpxYw=/600x400/thespruce.com-growing-miniature-roses-1403035-2-7f7cae6a1040489981708d8228ec5aba.jpg"
+  },
+  {
+    "name": "Lamb's Ears",
+    "price": 9.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/W7Yn8Y6moBB-9UdVASsOUlEurgs=/600x400/lambs-ears-uses-how-to-care-and-control-2132610-hero-e4137304e91f4d68a1a3777964a2ba0d.jpg"
+  },
+  {
+    "name": "Oriental Poppy",
+    "price": 11.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/CtbnEWjEYwR56hd6YPrSOOQleSQ=/600x400/oriental-poppy-flowers-2132558-02-014ea1f62bd04854af10e8dbbe2b03ab.jpg"
+  },
+  {
+    "name": "Maidenhair",
+    "price": 42.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/eXhy0_da7PjxtLBYMQjXmqiFAfY=/600x400/ginkgo-biloba-trees-fall-foliage-champ-4119900-07-7619c746899245419eb9de47ccbca196.jpg"
+  },
+  {
+    "name": "Norway Spruce",
+    "price": 54.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/0xHwxqywocLlPbn3HdzlX7eTvHI=/600x400/growing-norway-spruce-trees-5073791-hero-d35801dfd1934b5db4b32a86b8de9efc.JPG"
+  },
+  {
+    "name": "Macadamia Nut Tree",
+    "price": 38.5,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/ID_zXgI9hDEHBi9dxxlNh2OdYEo=/600x400/GettyImages-1320325126-e1995349ce5c42e6bd71f02146eec327.jpg"
+  },
+  {
+    "name": "Nigella",
+    "price": 8.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/q8MWAN1OrxohEAZY67NzO1hpa6E=/600x400/how-to-grow-nigella-damascena-1402911-2-144a1e01eb9f49edb328254e5db401af.jpg"
+  },
+  {
+    "name": "Love-Lies-Bleeding",
+    "price": 13.5,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/cXi7ZwwPtGeqg4eqFHvSDNjB3tw=/600x400/love-lies-bleeding-amaranthus-guide-5190287-hero-1e5fe40458e04a59ade6a26ae43155e6.jpg"
+  },
+  {
+    "name": "New York Ironweed",
+    "price": 15.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/yd_30zZ96UIi0VByQZx9NljS0Lk=/600x400/new-york-ironweed-plant-profile-5069722-01-352e0460851040fca621ee5d8e840f26.jpg"
+  },
+  {
+    "name": "Holy Basil",
+    "price": 7.99,
+    "categories": ["Indoor", "Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/4pz1LDeWVznrEjp2UFjY6qfD7OI=/600x400/holy-basil-plant-profile-5184884-02-aff5edbb15764a2fa0efc043003dd04c.jpg"
+  },
+  {
+    "name": "Hoya Obovata",
+    "price": 24.99,
+    "categories": ["Indoor", "Succulent"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/5ZbQpC8wywD26mA7luXyWwcnaWk=/600x400/growing-hoya-obovata-5089410-hero-b5b2713bc07c46fcb0c7c7b068904876.jpg"
+  },
+  {
+    "name": "Japanese Pagoda",
+    "price": 46.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/2issqUelheV2dxTZ9bbFxC-kNbU=/600x400/japanese-pagoda-tree-care-5186863-hero-b959bcf0d99349dcaef36a3b9e0cfeb0.jpg"
+  },
+  {
+    "name": "Nutmeg",
+    "price": 33.0,
+    "categories": ["Outdoor"],
+    "inStock": false,
+    "imageUrl": "https://www.thespruce.com/thmb/QZR3xhqUQJfOO07IoYK4NUadm0s=/600x400/nutmeg-tree-myristica-fragrans-guide-5120676-01-bae744fe22494810989b6adc4e106151.jpg"
+  },
+  {
+    "name": "New Guinea Impatiens",
+    "price": 9.5,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/lMClJuCKBoO_yXzfd0GzVThX0Yg=/600x400/care-for-new-guinea-impatiens-4122333-04-4b2981d61f404e78b2384202efaf39ba.jpg"
+  },
+  {
+    "name": "Ironwood",
+    "price": 40.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/u9HMXCrnpYOo0tLrsLUzr2VAL3s=/600x400/american-hornbeam-3269298-hero-01e09d82a9644eca8d67310f9d7ca9e4.jpg"
+  },
+  {
+    "name": "Japanese Black Pine",
+    "price": 52.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/kmbqLy-k0XcnEOMzWVCfnunm42g=/600x400/how-to-grow-and-care-for-japanese-black-pine-5075111-hero-735f846434674dc2ab6f691f08d1dfac.JPG"
+  },
+  {
+    "name": "Hibiscus",
+    "price": 25.5,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/Y-5xR3CtJnV0yJOfsfMPQjNxOeI=/600x400/hardy-hibiscus-plants-2132719-04-8c32d1cb3aac4d4e91cb92b104d5b8ec.jpg"
+  },
+  {
+    "name": "Mahonia",
+    "price": 28.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/dX8gboXVagx16lZD0VW70Ia5oHE=/600x400/mahonia-5214394-hero-cfe3e7d7505c41238a14c23daaae11de.jpg"
+  },
+  {
+    "name": "Cassia",
+    "price": 19.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/4trUan_o62IpiDOyhUONnxOZIw4=/600x400/growing-popcorn-plants-5082983-02-598acf4ed21b40d6a6142e3366cf7ab5.jpg"
+  },
+  {
+    "name": "Hawthorn",
+    "price": 35.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/dEyBw0ADuy6yxjGUmmicrcQXQpM=/600x400/hawthorn-tree-growing-guide-5196346-hero-1490677fa14a46969e05abe742af7117.jpg"
+  },
+  {
+    "name": "Zebra Plant",
+    "price": 21.5,
+    "categories": ["Indoor", "Home Decor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/Lz-k0S9Purdgn9oAaqHkUF8ZT-8=/600x400/kararileyzebra-RECIRC-6b7ebe00ec89480cb9470273a83c4d1f.jpg"
+  },
+  {
+    "name": "Banana Yucca",
+    "price": 29.0,
+    "categories": ["Outdoor", "Succulent"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/7-ozEx2wQD9kFFbkvB3seggANDI=/600x400/growing-yucca-baccata-5079092-hero-1519aaa1538f485a8c91013c331664b3.jpg"
+  },
+  {
+    "name": "Iceland Poppy",
+    "price": 10.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/nukKBa7jJlHeD8x-HZ71I4B40Rs=/600x400/how-to-grow-and-care-for-iceland-poppies-5075743-hero-f7889707ba844535b324b630cb99925e.jpg"
+  },
+  {
+    "name": "Quinoa",
+    "price": 12.5,
+    "categories": ["Outdoor"],
+    "inStock": false,
+    "imageUrl": "https://www.thespruce.com/thmb/htuTL9omWYj0mR5LjNkTq63bhLg=/600x400/how-to-grow-quinoa-plants-at-home-5075467-hero-a5f0b90836a54bf9b663fbdc2a5e5441.jpg"
+  },
+  {
+    "name": "Gollum Jade",
+    "price": 18.0,
+    "categories": ["Indoor", "Succulent", "Home Decor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/FYu_WQvXQVkWEk47rKB3eMfNSfs=/600x400/SPR-gollum-jade-7111398-hero-A-45d6c5cae8f24e21b2de97e7ff3d7465.jpg"
+  },
+  {
+    "name": "Queen Elizabeth Rose",
+    "price": 32.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/dbJaWs4rc1WZQBAbhunvqUF7E2k=/600x400/SPR-queen-elizabeth-rose-care-guide-7089498-hero-c78cea9ba9574992a034b4ae60b412ba.JPG"
+  },
+  {
+    "name": "Purple Hyacinth Bean",
+    "price": 14.5,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/utBMKHvCHqcUWt_QYwEEQzYnvY8=/600x400/how-to-grow-purple-hyacinth-bean-plants-412553205-debca3e07b304019817a959b406b3459.jpg"
+  },
+  {
+    "name": "Hummingbird Bush",
+    "price": 19.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/1Q75kH2v1c9uyTYMKClrIBKqmoY=/600x400/GettyImages-1418788573-37402cecccc74cd099e1776a7fac44a3.jpg"
+  },
+  {
+    "name": "Austrian Pine",
+    "price": 49.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/zOMLeNM21nCENqTkybN_Bzw55MU=/600x400/growing-the-austrian-pine-home-garden-3269314-4-c58c565338b74d21ac348c472f8bb169.jpg"
+  },
+  {
+    "name": "Grass Lily",
+    "price": 8.5,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/FnTFgOAkpTZCt1hx_kufszWNQJA=/600x400/star-of-bethlehem-plant-profile-4774326-hero-943e35e2dc3049b1b2baa110d5fa0e71.jpg"
+  },
+  {
+    "name": "Night-Blooming Jasmine",
+    "price": 24.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/fWeyMCgFvDKybvHeZ6CMuBIbsm8=/600x400/night-blooming-jasmine-growing-guide-5210438-hero-b9483a0b63604ac7ba752ff8c6b8c480.JPG"
+  },
+  {
+    "name": "Balloon Flower",
+    "price": 11.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/gVNdhoOFSZ8Chs9lI9YrKHk9Ef0=/600x400/how-to-grow-balloon-flowers-4125528-4-90d4ad081fd24025a336c0abef3a0bdb.jpg"
+  },
+  {
+    "name": "Orchid",
+    "price": 34.99,
+    "categories": ["Indoor", "Home Decor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/PX1kxm4q4M1gaYbM1cBftTN089A=/600x400/cattleya-orchids-overview-1902861-01-41afe3700488424698d11752a10eee27.jpg"
+  },
+  {
+    "name": "Oregano",
+    "price": 6.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/9vNKACsHrcGpKCDpsLYc2sBUfQc=/600x400/growing-oregano-plants-1402818-11-ce2a0899a12e4767a5ec71340464f508.jpg"
+  },
+  {
+    "name": "Malabar Spinach",
+    "price": 8.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/fpekbwzWNwTYOFINugGCpH30E2M=/600x400/malabar-spinach-growing-guide-5219861-hero-dd2b99c4d87246c787fcfbfc34ee2eba.JPG"
+  },
+  {
+    "name": "New England Aster",
+    "price": 12.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/nSs8HEeauUV3sKcex1IUTBWuwmY=/600x400/how-to-grow-new-england-asters-4109086-02-a9a397a6602b430ab703c4d92e93d600.jpg"
+  },
+  {
+    "name": "Queen Anne's Lace",
+    "price": 9.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/mJIfbl-8LR32L5J_sLqPhf2aPuo=/600x400/queen-annes-lace-guide-7111019_01-6b6a81a8695e4d63bfaf2f62dfad3c0f.jpg"
+  },
+  {
+    "name": "Baneberry",
+    "price": 16.5,
+    "categories": ["Outdoor"],
+    "inStock": false,
+    "imageUrl": "https://www.thespruce.com/thmb/yzNE70j5umzVdyMBkxv_-7HZNoc=/600x400/actaea-or-cimicifuga-1316020_01-a3c15678fb0e4f2ca06fcdae82e7ff97.jpg"
+  },
+  {
+    "name": "Resurrection Plant",
+    "price": 15.0,
+    "categories": ["Indoor", "Succulent"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/Et6y9ShDdc3bLRqeTo9LLOiNcAU=/600x400/how-to-grow-and-care-for-resurrection-plants-5076015-hero-b3c46cbb8f814b67a81f54ade2ddc274.jpg"
+  },
+  {
+    "name": "Becky Shasta Daisy",
+    "price": 13.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/6Dx1pVbx9kbyUitWnQhVg4IUIXo=/600x400/thespruce.com-becky-shasta-daisy-flowers-2132612-6-ab464bf301c8414093ab9302d87b5683.jpg"
+  },
+  {
+    "name": "Banana",
+    "price": 35.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/lq8PqFmMWvvhDbkkgWr9xfc83rM=/600x400/banana-tree-growing-profile-3269353-recirc-55a228cd3fa74023bfc392579aed763c.jpg"
+  },
+  {
+    "name": "Red Poppy",
+    "price": 7.5,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/nYS-pACofXByojMSVhVWMlcTgAg=/600x400/growing-common-poppy-papaver-rhoeas-5113751-hero-3246835ea3184e4bb2c51bd0d331ed42.jpg"
+  },
+  {
+    "name": "Heartleaf Philodendron",
+    "price": 17.99,
+    "categories": ["Indoor", "Air Purifying"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/qW_VQ7U2HLlYfilef0s7FXwAchg=/600x400/heartleaf-philodendron-guide-5181702-hero-d7f06d3be69a42e2b71441e6d0d0ed86.jpg"
+  },
+  {
+    "name": "Autograph Tree",
+    "price": 28.0,
+    "categories": ["Indoor", "Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/yzhY5-VfzOAHAOcPqwb6R4GvY44=/600x400/growing-clusia-species-indoors-1902545-RECIRC-5c33090ffec3407d94b12725bfbff0a5.jpg"
+  },
+  {
+    "name": "Snowdrop",
+    "price": 9.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/hm3dYcA2V-ULYXa_MPLRgz4EdZU=/600x400/flower-facts-about-snowdrops-2132563-hero-62e798f7454244199424ac0495d3c275.jpg"
+  },
+  {
+    "name": "Pilea Involucrata",
+    "price": 14.0,
+    "categories": ["Indoor", "Home Decor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/Kyd_MfXtxD-i7GWWfhuU-1ZIqcY=/600x400/SPR_pilea-involucrata-plant-profile_001-fea2026e45d5416cac2e5ad717f0f643.jpg"
+  },
+  {
+    "name": "Pilea Microphylla",
+    "price": 12.0,
+    "categories": ["Indoor", "Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/xEX4n3dSZb6KE6AJibO5sc_JMxw=/600x400/Starr_030807-0140_Pilea_microphylla-d7d51850d3f24573b3961989e4d978b8.jpg"
+  },
+  {
+    "name": "Karl Foerster Feather Reed Grass",
+    "price": 18.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/eachbfM1N1g4tJE00OyV2xATdqM=/600x400/karl-foerster-feather-reed-grass-care-guide-7570203_04-e5b7b5925525408889cd757a48e7d43f.JPG"
+  },
+  {
+    "name": "Philodendron Billietiae",
+    "price": 55.0,
+    "categories": ["Indoor", "Home Decor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/4iDWdDm2FoEfX23tutDS9Y07mU0=/600x400/philodendron-billietiae-care-guide-7484025-hero-14c92b22fbb74ced8b581e4c2c745a1a.jpg"
+  },
+  {
+    "name": "Japanese Sedge",
+    "price": 14.0,
+    "categories": ["Outdoor"],
+    "inStock": false,
+    "imageUrl": "https://www.thespruce.com/thmb/z0KZdM4QbWz8oIE12dT-AgxpCaU=/600x400/growing-japanese-sedge-5085371-hero-475fe357a8d944baa7fb8e44ab143673.jpg"
+  },
+  {
+    "name": "Marigold",
+    "price": 5.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/3kq34zAkcOpBOCrIBIU1FtUobG8=/600x400/growing-and-using-calendula-1402626-hero-6c4c4cf97a8940aaabad6975a27358b1-975ec0f7f1144eef8553df0111e7136f.jpg"
+  },
+  {
+    "name": "Red-Twig Dogwood",
+    "price": 29.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/Mhty0d-hclKT0ISU9c0lqxrpDIo=/600x400/red-twig-dogwood-shrubs-2132727-hero-9c065dc3d54e4c2c9b3f8a2095bad3b2.JPG"
+  },
+  {
+    "name": "Hinoki Cypress",
+    "price": 45.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/Vum0CCg-sD8TptQwfMgpQRb09mk=/600x400/hinoki-cypress-trees-2132062-05-d54ae812badb449c896b55f77d69d649.jpg"
+  },
+  {
+    "name": "Song Of India",
+    "price": 26.5,
+    "categories": ["Indoor", "Home Decor", "Air Purifying"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/pm8nJwGEM2UGJ_TQvmvfNO7IQrA=/600x400/growing-the-song-of-india-5087083-2-44b3e4ff78604d6cb47a460b04b27923.jpg"
+  },
+  {
+    "name": "Monstera Thai Constellation",
+    "price": 150.0,
+    "categories": ["Indoor", "Air Purifying"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/12IRPxsiFOu9KWoUilmUjty516A=/600x400/SPR-thai-constellation-monstera-care-guide-8404604-hero-0fbb62cd9e8e4305bf159f7ab3a36e6a.jpg"
+  },
+  {
+    "name": "Monkey Flowers",
+    "price": 12.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/yvgZIadqZODmd3I_Isf1G_sj0Go=/600x400/SPR-monkey-flowers-care-guide-7371856-hero-02-9d44bf9c0e684ff7b0764e688d975eca.jpg"
+  },
+  {
+    "name": "Serrano Pepper",
+    "price": 7.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/87VlMg0VAlue-d9dyAi8CoUpsmw=/600x400/growing-serrano-pepper-plants-508297808-ad09c8521a854441a1bd64d635e291db.jpg"
+  },
+  {
+    "name": "Florida Beauty",
+    "price": 23.0,
+    "categories": ["Indoor", "Home Decor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/fSOx6MSKEWQje15hrmspDSIdiwg=/600x400/SPR-florida-beauty-plant-7377283-Hero-A-ee7a767358334d9a8ad1841de06ff25f.jpg"
+  },
+  {
+    "name": "Shallot",
+    "price": 5.5,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/RHTXrhRq2gicvpQBakEPS2xBRkU=/600x400/growing-shallots-in-the-vegetable-garden-1403464-01-2d7d33250a324799bc32393e7bb1cd15.jpg"
+  },
+  {
+    "name": "Creeping Wire Vine",
+    "price": 13.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/EX-CsaRv9A5tQt0C1hrGrapjql0=/600x400/creeping-wire-vine-plant-profile-5070513-hero-1c4ca70edaee499f982811d6df176adf.JPG"
+  },
+  {
+    "name": "Australian Tree Fern",
+    "price": 38.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/u8w7uVY0ooYu5lFW29JuGeL_viA=/600x400/australian-tree-fern-overview-1902715-hero-b83413216eed46eaa7ca102848717694.jpg"
+  },
+  {
+    "name": "Duranta",
+    "price": 21.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/BSR6RKeagWs1C0Fd8rKoVfnT01A=/600x400/duranta-plant-care-and-growing-guide-4684565-hero-32691999f7464b03ba49c89d5cc5f537.jpg"
+  },
+  {
+    "name": "Corsican Mint",
+    "price": 8.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/DmP0po90ellSaFkXcEIQOv1X-wY=/600x400/corsican-mint-profile-5122496_1B-018ac5a260784a26b4cb4ef358793885.jpg"
+  },
+  {
+    "name": "Cosmos",
+    "price": 6.5,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/oSm_cnM9BY0U5pDuh2wt4ey0fW4=/600x400/how-to-grow-cosmos-4125538-09-c2477f1597bd4e7d848a19357c965338.jpg"
+  },
+  {
+    "name": "Paddle Plant",
+    "price": 19.99,
+    "categories": ["Indoor", "Succulent"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/cAWQVNW0JFen-4sJ-EJ2DP9EKnE=/600x400/kalanchoe-thyrsiflora-f14cd9a427074eb08323870cfe9247de.jpg"
+  },
+  {
+    "name": "Rattlesnake Plant",
+    "price": 24.5,
+    "categories": ["Indoor", "Home Decor"],
+    "inStock": false,
+    "imageUrl": "https://www.thespruce.com/thmb/Pmrqmh12fpB9aZQZlQ8ld_7uA-g=/600x400/SPR-grow-calathea-indoors-1902745-hero-ec9ad66c01b74dca97ea02e167b6a660.jpg"
+  },
+  {
+    "name": "Daffodil",
+    "price": 10.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/d2tP4ec-dapWIz-SE27bPTDMc9M=/600x400/planting-and-growing-daffodils-1402136_01-bb8eada2ffb4443dbb20a7b1f0f3dfce.jpg"
+  },
+  {
+    "name": "Owl Eyes",
+    "price": 16.0,
+    "categories": ["Indoor", "Succulent"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/7-r8NimkepTRuM7RcerMacoRg0s=/600x400/lifesaver-plant-profile-5072331-hero-02e356fc378741e1b172cbd429a488e5.jpg"
+  },
+  {
+    "name": "Snapdragon",
+    "price": 8.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/v_E4o41Bi01JBwOo-n3_sUxPgfU=/600x400/snapdragon-flowers-in-a-garden-531261006-6ec519b55f204a0aadeef51d68d02d7d.jpg"
+  },
+  {
+    "name": "Crocus",
+    "price": 7.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/cq8hT7QOwWDkdLS8fPS1ozWELPs=/600x400/planting-and-caring-for-crocus-1402246-04-b473f9aff23b4196866c08aeda8c60db.JPG"
+  },
+  {
+    "name": "Mum",
+    "price": 14.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/NfA1zL8pFkw6EeHzlkWcArvwB0s=/600x400/growing-hardy-mums-1402850-04-d7ae349ebc754d9e89ef78520aa64ac6.jpg"
+  },
+  {
+    "name": "Siberian Iris",
+    "price": 15.5,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/7jRbsQ_zYnOG7tn-MNJrmpG8eaQ=/600x400/growing-siberian-iris-5089592-01-9721e91151bd477f98b15ec96a229e68.jpg"
+  },
+  {
+    "name": "Red Currant",
+    "price": 22.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/XrLSG9g-6R-5ZNKl-iuXd5CxBTc=/600x400/red-currant-growing-guide-5201212-hero-e2ee21025b0e4aeeaa019adf3122ca95.jpg"
+  },
+  {
+    "name": "Snowball Bush Viburnum",
+    "price": 31.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/DnBrryw9Hyhiaf6Qd1h-hSE648M=/600x400/snowball-bush-profile-4125613-hero-8e93a04b5db54725946c7f16a49aa5f7.jpg"
+  },
+  {
+    "name": "Philodendron Spiritus-Sancti",
+    "price": 950.0,
+    "categories": ["Indoor"],
+    "inStock": false,
+    "imageUrl": "https://www.thespruce.com/thmb/VKAnpicMXbcN3O445JiOocKKLJI=/600x400/SPR-philodendron-spiritus-sancti-indoor-plant-growing-guide-6361710-hero-b9cec864285e490c9f85359310f5f59d.jpg"
+  },
+  {
+    "name": "Bat Flower",
+    "price": 45.0,
+    "categories": ["Indoor", "Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/H_E8gRENl3J83wkt8a0mpQcHFHA=/600x400/bat-flower-plant-profile-4842137_01a-b0f66d1f7ea6462fbb8521f5b5c0d09c.jpg"
+  },
+  {
+    "name": "Philodendron Florida Beauty",
+    "price": 40.0,
+    "categories": ["Indoor", "Home Decor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/8EMYxQy1D8tzDvdoUv8xXbQSqa0=/600x400/GettyImages-1446386059-ce0d8985eeaa4f81ab14af10971e58e5.jpg"
+  },
+  {
+    "name": "Lupine",
+    "price": 13.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/rx0zIMF8M_hgP4JbwmfYwYdlJAs=/600x400/growing-lupine-flowers-1316034-11-4966d1a9859647b7abe04586df91c012.jpg"
+  },
+  {
+    "name": "Heliconia",
+    "price": 29.5,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/bpDrt6Y2vQoR_RzKy3u_N9XWAO8=/600x400/grow-heliconia-inside-02-c40a0d2a33c243899d9e931d2de15dfc.jpg"
+  },
+  {
+    "name": "Purple Heart Plant",
+    "price": 16.0,
+    "categories": ["Indoor", "Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/U5HRzFjmrsp52bl9hE4xMeetn_k=/600x400/growing-purple-heart-plants-5094561-hero-653a1fd71b6841d7b2d8a550f9f2e2d3.jpg"
+  },
+  {
+    "name": "Oxeye Daisy",
+    "price": 10.5,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/F0yXGZJTaD1r9tkqn4A8FRiJOl0=/600x400/oxeye-daisy-growing-guide-5190951-hero-baed472653934a6da8c8f86237dcf7bc.jpg"
+  },
+  {
+    "name": "Cotton Rose",
+    "price": 24.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/yGAIFUGqcTYvi0uhElJpIeXOlMI=/600x400/SPR-growing-hibiscus-mutabilis-plants-5079080-03-b63eeb6381484532a626ec9f04be73f7.jpg"
+  },
+  {
+    "name": "Myrtle",
+    "price": 18.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/GXvSyTIoIi2xSKYySRAdWFgBfog=/600x400/growing-myrtus-communis-5089132_05-8a75020ca2cf47ffa9b6ea1b11b8bf31.jpg"
+  },
+  {
+    "name": "Boston Ivy",
+    "price": 20.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/yGMno8YeMmzI3ZLVnVB19AonHVc=/600x400/thespruce.com-growing-and-planting-boston-ivy-2132892-2-d3fe92017b974bfcb26e8087d1b441da.jpg"
+  },
+  {
+    "name": "Hibiscus",
+    "price": 26.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/Hv6yPNPepwZYShEixu_TiK4b5Gs=/600x400/hibiscus-growing-guide-5192541-hero-615db48a744245c49517f7f4bef54d18.JPG"
+  },
+  {
+    "name": "Ball Cactus",
+    "price": 15.99,
+    "categories": ["Indoor", "Succulent"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/hTaeWxQ276o2PZ5FCnIAIDawi7I=/600x400/grow-parodia-cacti-indoors-1902591-3-5fbdb47bf06740ea813a4cf15350436e.jpg"
+  },
+  {
+    "name": "Hoya Kerrii",
+    "price": 22.5,
+    "categories": ["Indoor", "Succulent", "Home Decor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/symN6FFwBPHPjuyfwHB4HDtoaz8=/600x400/hoya-kerri-care-guide-5222015-hero-aaf2fea78cd141a099e1d7a6a8512aa4.jpg"
+  },
+  {
+    "name": "Pyrethrum",
+    "price": 12.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/bj8aBwpdBWOBBSnOvLsfDJOTVyM=/600x400/painted-daisy-plant-profile-5088038-04-3e6c7afcc1514ebf8d8fff61b9b6bb12.JPG"
+  },
+  {
+    "name": "Spineless Yucca",
+    "price": 39.0,
+    "categories": ["Indoor", "Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/Kn3zI_D5jW9lvf0PmqTQNegSf40=/600x400/spineless-yucca-plant-profile-5158420-hero-2514c67b596344bd86d0fbb5d29b8dcb.jpg"
+  },
+  {
+    "name": "Pothos",
+    "price": 19.99,
+    "categories": ["Indoor", "Air Purifying"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/4DJCFmn24q04BOEiPPAZuG_wjkc=/600x400/pothos-an-easy-to-grow-houseplant-1403154-hero-fbcf9818c6ff4c3b9bf2d3eb4d0bfde0.jpg"
+  },
+  {
+    "name": "String Bean Hoya",
+    "price": 21.99,
+    "categories": ["Indoor", "Succulent"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/phlinkJxV_DZgTfCIciBkq2HWO0=/600x400/SPR_hoya-shepherdii-care-guide_003-ca17f73c48d84bc18410b0ec05100c48.jpg"
+  },
+  {
+    "name": "Bamboo",
+    "price": 33.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/ssRaBoffGUI2HBVG3PTzwD3OYnI=/600x400/how-to-grow-golden-bamboo-5077107-01-667ff5f2e49c49928ab91724728b498a.jpg"
+  },
+  {
+    "name": "Red Dragon Japanese Maple",
+    "price": 58.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/6eOXS4HkWsllXIevYBNN98ATDWo=/600x400/growing-red-dragon-japanese-maple-5113444-hero-7ddc3077ac254ef9b82d2c82147c3903.JPG"
+  },
+  {
+    "name": "Creeping Speedwell",
+    "price": 9.5,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/VyvOvq281XYhjTWFNvqeBI79hUg=/600x400/creeping-speedwell-5217603-hero-e3d9228415fc4b02b925e629aebc4889.jpg"
+  },
+  {
+    "name": "Pink Muhly Grass",
+    "price": 16.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/qyg_eDfhg0GuXB9CRlsSf9FgHzY=/600x400/pink-muhly-grass-profile-5072062-hero-c42185cdc055406caafe746925c4507b.jpg"
+  },
+  {
+    "name": "Silver Mound",
+    "price": 12.5,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/SH1hMHexLzTv9ZpY0N40LpZ8Oms=/600x400/silver-mound-artemisia-low-perennial-groundcover-2132049-hero-af6c10f35a134e21a7e2b252717e441b.jpg"
+  },
+  {
+    "name": "Mother Of Thousands",
+    "price": 17.0,
+    "categories": ["Indoor", "Succulent"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/_SLRELsP-yW7_9RBYIK2dlhAWnc=/600x400/kalanchoe-daigremontiana-plant-care-5083720-hero-5d14472ed3624e9585e47a729b9aaea1.jpg"
+  },
+  {
+    "name": "Radish",
+    "price": 5.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/Q5cyLfnw1NekX03Zra7KVoaA6xk=/600x400/growing-radishes-in-the-home-vegetable-garden-1403477-02-c295e04667df4c8fac380a5543b663e1.jpg"
+  },
+  {
+    "name": "Buddha Belly Bamboo",
+    "price": 42.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/wxtP3N7-YmAUeRrsikeLB38K9d0=/600x400/GettyImages-1428939754-5753649dd5d145eb822e15fc05996d26.jpg"
+  },
+  {
+    "name": "Date Palm",
+    "price": 55.0,
+    "categories": ["Outdoor"],
+    "inStock": false,
+    "imageUrl": "https://www.thespruce.com/thmb/T_uiIE6Pb6TUp9SVKLzN1rtvEjI=/600x400/growing-date-palm-trees-5093786-hero-d46d6d841a8e45b5adc36460dfaf36ac.jpg"
+  },
+  {
+    "name": "Silk Tree",
+    "price": 44.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/CTTK-a3tjPcrQVdTev5ceueOWYQ=/600x400/growing-persian-silk-trees-albizia-julibrissin-5094178-01-aa6c505c474d4e3ca7d6e8085d16cadd.jpg"
+  },
+  {
+    "name": "Cup And Saucer Vine",
+    "price": 15.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/dPj5pF5wSRA_ZdSKgBDNHzj5Kyg=/600x400/SPR-growing-cup-and-saucer-vine-cobaea-scandens-1402904-hero-fb85c3ef033b4b19a832cbf3edcdcb74.jpg"
+  },
+  {
+    "name": "Bok Choy",
+    "price": 6.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/Nh_FQ8Q1U1HX1X14SgKhQCgFWqo=/600x400/how-to-grow-bok-choy-4125560-07-432d0d29a9264d90ae1e9f34ed5fd7ec.jpg"
+  },
+  {
+    "name": "Snake Plant",
+    "price": 29.99,
+    "categories": ["Indoor", "Air Purifying", "Succulent"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/un1pY2DAldWETjVwilpBZH7qqAo=/600x400/snake-plant-care-overview-1902772-04-d3990a1d0e1d4202a824e929abb12fc1.jpg"
+  },
+  {
+    "name": "Brunnera",
+    "price": 14.5,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/MLwQQ-eCpr9h3Q-eZUw41j36rQc=/600x400/growing-brunnera-1402835_04-3c433b09b2844da3838ff60b22416e5d.jpg"
+  },
+  {
+    "name": "Pot of Gold",
+    "price": 11.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/yzxHPKl6w9HIO9ErxZj1C-Z-mWw=/600x400/growing-and-using-coreopsis-in-the-flower-garden-1402839-recirc-e8a9c85c0aea450185512cccc56c1b42.jpg"
+  },
+  {
+    "name": "Brass Buttons",
+    "price": 9.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/PzbMjsR91Okmhq8GDikUghAYKw4=/600x400/brass-buttons-plant-care-and-growing-guide-4684970-hero-0e505769d5ed405ebb3ffec8e8669f45.jpg"
+  },
+  {
+    "name": "Sungold Tomato",
+    "price": 8.5,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/qe_-K2vm8FzDUn41P_Bq11iwujM=/600x400/SPR-sungold-tomato-7372311-hero-8270068f4aa64d1cbe62c2f84d0b1d10.jpg"
+  },
+  {
+    "name": "Ti",
+    "price": 25.0,
+    "categories": ["Indoor", "Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/8hhH_HXReTT7dqRpkHwvUnTTN8c=/600x400/ti-plant-profile-507415905-df99278762cf495387f91d3f98d0c928.jpg"
+  },
+  {
+    "name": "Creeping Bellflower",
+    "price": 12.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/o49zd5i89a-PIYFlqYq9hWTerIQ=/600x400/creeping-bellflower-campanula-rapunculoides-care-and-growing-guide-5073160-hero-55b918adcdbb4fe0856e132615823ddd.jpg"
+  },
+  {
+    "name": "Liriope",
+    "price": 10.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/78JlNeQolMaRx7sd4PobezU3APg=/600x400/Liriope-spicata-blooms-big-596ff60f685fbe001182980c.jpg"
+  },
+  {
+    "name": "Blueberries",
+    "price": 27.99,
+    "categories": ["Outdoor"],
+    "inStock": false,
+    "imageUrl": "https://www.thespruce.com/thmb/Oqf6TP6WJN-V9ExR9U8dSg_VTMU=/600x400/blueberries-vaccinium-spp-3269245-01-42fb9fde200d4c05a2a5d3c6e94a0bf2.jpg"
+  },
+  {
+    "name": "Pink Jasmine",
+    "price": 23.5,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/J82MKCd4M3GfDiIXUmpkd4-Y8u0=/600x400/grow-jasmine-indoors-1902621-hero-cb3704e3ed94419e9ffb9a6290ddacb5.jpg"
+  },
+  {
+    "name": "Dawn Redwood",
+    "price": 59.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/In2kXpdQhezpZSG8_nJqv6zIEIQ=/600x400/dawn-redwood-growing-profile-3269307-hero-bc08373ebbe54364b9c022137d30e746.jpg"
+  },
+  {
+    "name": "Mexican Petunia",
+    "price": 13.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/g-4jzTqRTp10rssOAkqQq_grvII=/600x400/mexican-petunias-growing-guide-5198750-hero-82a52f6ba8ea4b2bb5627bb8af0065af.jpg"
+  },
+  {
+    "name": "Prayer Plant",
+    "price": 22.0,
+    "categories": ["Indoor", "Home Decor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/nshMhjaiMUcJKr5ShVB2WZuZGtc=/600x400/grow-maranta-inside-1902647-02-de777eb8e7804c3d86d658cd242583d6.jpg"
+  },
+  {
+    "name": "Fiddle-Leaf Fig",
+    "price": 55.0,
+    "categories": ["Indoor", "Home Decor", "Air Purifying"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/b9AXXrVfDx9PYAHz0kLpoxHZFM8=/600x400/grow-fiddle-leaf-fig-indoors-1902756-hero-feca31e64e91430794e2bdcc9fa1e901.jpg"
+  },
+  {
+    "name": "Blue Spruce",
+    "price": 56.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/b_MNGz5GjoupQn0a7E1ZeExwVM4=/600x400/colorado-blue-spruce-trees-2132082-06-4cee49e954974a16aefd9d74a8321708.jpg"
+  },
+  {
+    "name": "Corkscrew Willow",
+    "price": 43.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/Eyaqieoew7nTGM53jS5f6uELeGk=/600x400/corkscrew-willow-plant-profile-4844346-hero-67a00e6f5b1944ebae93b414aff03708.jpg"
+  },
+  {
+    "name": "Bartlett Pear",
+    "price": 48.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/91Qat6E1Za9NhvZWTQKg5LbvRoE=/600x400/bartlett-pear-tree-growing-guide-5211022_04-7703e95172b04952a53096f1b23b004e.jpg"
+  },
+  {
+    "name": "Mexican Feather Grass",
+    "price": 15.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/t1UbA52sQE402yprBOUPhzBFqKI=/600x400/how-to-grow-and-care-for-mexican-feather-grass-5077536-hero-2a8bc90c941846ecbc783ae884b5f1b9.jpg"
+  },
+  {
+    "name": "Lotus",
+    "price": 30.0,
+    "categories": [],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/uQMNZLKGd_Xc-ylXubpE6ytlnV8=/600x400/lotus-flower-122126082-57cf59843df78c71b6cbf2b0.jpg"
+  },
+  {
+    "name": "Bamboo",
+    "price": 34.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/ssRaBoffGUI2HBVG3PTzwD3OYnI=/600x400/how-to-grow-golden-bamboo-5077107-01-667ff5f2e49c49928ab91724728b498a.jpg"
+  },
+  {
+    "name": "Sweet Corn",
+    "price": 7.5,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/h1fvTZwAtBm6mb-PeP4_k3TZ1OY=/600x400/82248005-56a349ef3df78cf7727cb8f7.jpg"
+  },
+  {
+    "name": "Rocky Mountain Juniper",
+    "price": 51.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/unRJ3IOW_W4y94HmxzSH3Jwcw54=/600x400/skyrocket-juniper-7104381_hero-3b1b95a6cabe479a9784d3ef45f825d4.jpg"
+  },
+  {
+    "name": "Bearded Iris",
+    "price": 16.5,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/HE2CqMKe0AvyZ4RPT03EMGhJmZ0=/600x400/iris-plant-profile-4589585_05-f9fe9eebd31d4461b9ba193876650167.jpg"
+  },
+  {
+    "name": "Kentia Palm",
+    "price": 40.0,
+    "categories": ["Indoor", "Air Purifying"],
+    "inStock": false,
+    "imageUrl": "https://www.thespruce.com/thmb/czpws5Jaf_9T6xijQfEUMi-zS9w=/600x400/grow-kentia-palms-1902880-2-23d05188a9db47d78921425bcb8d433d.jpg"
+  },
+  {
+    "name": "Indian Hawthorn",
+    "price": 26.99,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/1prHXgczQiC2nw_ZTz2qQg4cmBA=/600x400/indian-hawthorn-growing-profile-3269219-hero-19c1a7671501466a8c4a65e4fc587906.jpg"
+  },
+  {
+    "name": "Manuka",
+    "price": 28.5,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/fAhr03JCkQhtbScGdAkPgKDj5ww=/600x400/new-zealand-tea-tree-growing-tips-3269176-hero-b12a90e7469b4964bff092cb21e2d79b.jpg"
+  },
+  {
+    "name": "American Elderberry",
+    "price": 30.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/XyryGOCjo9gK6S2tu3MPQN042ow=/600x400/growing-elderberry-sambucus-nigra-3269208-hero-583945660ede4744ba2395805536f4f1.jpg"
+  },
+  {
+    "name": "Society Garlic",
+    "price": 11.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/kBuguX6zF4794yc_ZjDTm0Gf1BY=/600x400/society-garlic-plant-profile-5180171-hero-509f60a966e34ed687f90265769f69df.jpg"
+  },
+  {
+    "name": "Jessenia Pothos",
+    "price": 24.99,
+    "categories": ["Indoor", "Air Purifying"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/trQFajrnNKutmgLpI8x_PKCvwUg=/600x400/jessenia-pothos-care-guide-6260923-3-472b9aabef01461abb106674eddd6c26.jpg"
+  },
+  {
+    "name": "Swiss Cheese Plant",
+    "price": 28.0,
+    "categories": ["Indoor", "Air Purifying"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/y6feaCJQP8sACe5rwxO0_4qS9LY=/600x400/grow-monstera-adansonii-swiss-cheese-plant-1902774-hero-01-dc903dae459a4dd5b919d5e1d1bee9d3.jpg"
+  },
+  {
+    "name": "Blue Star Fern",
+    "price": 20.0,
+    "categories": ["Indoor", "Home Decor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/-HY_nyAZvclZgRUtWsHuhKcJnlg=/600x400/how-to-grow-and-care-for-blue-star-fern-7553051-hero-05474b33d0294c86b3efde8f0f1aec65.jpg"
+  },
+  {
+    "name": "Mock Orange",
+    "price": 27.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/mZ9nXjPFsJXrZiyzHRiWL9az3G4=/600x400/growing-orange-jasmine-home-garden-3269248-hero-36ffbf76cfe34121a655e2a8d0437424.jpg"
+  },
+  {
+    "name": "Nemesia",
+    "price": 9.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/i1fjhIp-_9T2g2TKdb0g-PuYEGo=/600x400/nemesia-plant-profile-5070320-11-f8453f1be78541a7930b4d61c19d2a3f.jpg"
+  },
+  {
+    "name": "Sundew",
+    "price": 18.0,
+    "categories": ["Indoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/F7RmaZLWchW-MPd8oMxG10T8qbo=/600x400/growing-sundew-plants-5082980-hero-29d3647d6dd24e08ae53098ace286cf7.jpg"
+  },
+  {
+    "name": "German Chamomile",
+    "price": 8.5,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/c1NYYAUCGzym71smdRXX1caN5RM=/600x400/how-to-grow-chamomile-1402627-recirc-e5f72b3b56d249278c4fb68298845c65.jpg"
+  },
+  {
+    "name": "Oxalis",
+    "price": 13.5,
+    "categories": ["Indoor", "Outdoor"],
+    "inStock": false,
+    "imageUrl": "https://www.thespruce.com/thmb/JhJ_3whfns6YpSDPROwt9z9et8E=/600x400/oxalis-growing-guide-7506977_01-c6a807a281ce49ff87d6b87cbbb32035.jpg"
+  },
+  {
+    "name": "Lemon Verbena",
+    "price": 10.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/mmbzhBbd62Erca6NZyfxlE6_A4o=/600x400/how-to-grow-and-care-for-lemon-verbena-4690675-hero-b68eb790170741e1a05d9e366a20b47c.jpg"
+  },
+  {
+    "name": "Cup Plant",
+    "price": 14.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/YuWQeIQKbIcMwAQuwsdY_pj5mMo=/600x400/cup-plant-profile-5069610-08-2e8f8427b4ee4ace962e3c3278795336.jpg"
+  },
+  {
+    "name": "Phalaenopsis",
+    "price": 36.0,
+    "categories": ["Indoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/n35Ty9-TBbYY9h5BiaHCn_3zduc=/600x400/phalaenopsis-orchids-definition-1902866-01-6f299423133b471ca15a94ac2561d688.jpg"
+  },
+  {
+    "name": "Sunburst Honey Locust",
+    "price": 52.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/vNjNGKF63hatqruPDzrj7vdz4FU=/600x400/sunburst-honey-locust-trees-2132048-hero-eb1a9f50fb7f402ab4de11774ba6fa9e.jpg"
+  },
+  {
+    "name": "Red Tip Photinia",
+    "price": 33.0,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/86iZfn4j1SUKFowmFM_pPSGkr9c=/600x400/red-tip-photinia-growing-profile-3269221-4-1dc9839e64754ce8a0852934ed9bd4da.jpg"
+  },
+  {
+    "name": "Bog Onion",
+    "price": 17.5,
+    "categories": ["Outdoor"],
+    "inStock": true,
+    "imageUrl": "https://www.thespruce.com/thmb/dhGdpCYFyadpxiBufzUqe7djRrY=/600x400/SPR-jack-in-the-pulpit-plants-2132952-Hero-A-78c425593e05476788b3bd74cb1bbbc6.jpg"
+  }
+]
