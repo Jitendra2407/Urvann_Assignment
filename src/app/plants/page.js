@@ -19,7 +19,7 @@ export default function PlantsPage() {
   const [totalPages, setTotalPages] = useState(1);
   const [isAdmin, setIsAdmin] = useState(false);
   const [loading, setLoading] = useState(false); // loader state
-  const itemsPerPage = 24;
+  const itemsPerPage = 20;
 
   useEffect(() => {
     const token = localStorage.getItem("token");
