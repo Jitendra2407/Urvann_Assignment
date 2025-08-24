@@ -16,19 +16,20 @@ export default function PlantsPage() {
   const [category, setCategory] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
+  const [isAdmin, setIsAdmin] = useState(false);
   const itemsPerPage = 24;
 
-  const token = localStorage.getItem("token");
-  let isAdmin = false;
-
-  if (token) {
-    try {
-      const decoded = jwtDecode(token); // { userId, email, isAdmin }
-      isAdmin = decoded.isAdmin;
-    } catch (err) {
-      console.error("Invalid token");
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    if (token) {
+      try {
+        const decoded = jwtDecode(token); // { userId, email, isAdmin }
+        setIsAdmin(decoded.isAdmin);
+      } catch (err) {
+        console.error("Invalid token");
+      }
     }
-  }
+  }, []);
 
   // Fetch plants from API
   const fetchPlants = async () => {
