@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import Background from "@/components/Background";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import toast from "react-hot-toast";
 
 const PROFILE_API = "/api/admin";
 const PLANTS_API = "/api/post-plant";
@@ -116,9 +117,10 @@ export default function PlantNurseryDashboard() {
       setSelectedCategories([]);
       setInStock(true);
       setImageFile(null);
-      alert("Plant added successfully!");
+      toast.success("Plant added successfully!");
+      // router.push("/plants");
     } catch (err) {
-      alert(err.message);
+      toast.error(err.message);
     } finally {
       setIsSubmitting(false);
     }
