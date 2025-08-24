@@ -129,20 +129,12 @@ export default function LandingPage() {
                 )}
 
                 {/* Login Button */}
-                {/* <Button
-                  type="submit"
-                  disabled={isSubmitting}
-                  className="bg-green-600 hover:bg-green-700 text-white rounded-xl mt-6 py-2 shadow-lg transition-transform hover:scale-105"
-                >
-                  
-                  Login
-                </Button> */}
                 <Button
                   type="submit"
                   disabled={isSubmitting}
                   className="bg-green-600 hover:bg-green-700 text-white rounded-xl mt-6 py-2 shadow-lg transition-transform hover:scale-105"
                 >
-                  {isSubmitting ? "Logging in..." : "Login"}
+                  {isSubmitting ? "Logging in..." : "Login or Register"}
                 </Button>
               </form>
             </CardContent>
