@@ -141,33 +141,33 @@ export default function PlantNurseryDashboard() {
           className="bg-white/90 backdrop-blur-md shadow-2xl rounded-3xl p-8 flex flex-col gap-6"
         >
           {/* Name */}
-          <div className="relative">
+          <div>
+            <label className="block text-gray-600 font-medium mb-2">
+              Plant Name
+            </label>
             <input
               type="text"
-              placeholder=" "
+              placeholder="Enter plant name"
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
-              className="peer w-full px-4 py-3 rounded-xl border text-gray-500 border-green-300 focus:border-green-500 focus:ring-green-500 focus:outline-none transition placeholder-transparent"
+              className="w-full px-4 py-3 rounded-xl border text-gray-700 border-green-300 focus:border-green-500 focus:ring-green-500 focus:outline-none transition"
             />
-            <label className="absolute left-4 top-3 text-gray-400 text-base peer-placeholder-shown:top-3 peer-placeholder-shown:text-gray-400 peer-placeholder-shown:text-base peer-focus:-top-2 peer-focus:text-green-600 peer-focus:text-sm transition-all">
-              Plant Name
-            </label>
           </div>
 
           {/* Price */}
-          <div className="relative">
+          <div>
+            <label className="block text-gray-600 font-medium mb-2">
+              Price
+            </label>
             <input
               type="number"
-              placeholder=" "
+              placeholder="Enter price"
               value={price}
               onChange={(e) => setPrice(e.target.value)}
               required
-              className="peer w-full px-4 py-3 rounded-xl border text-gray-500 border-green-300 focus:border-green-500 focus:ring-green-500 focus:outline-none transition placeholder-transparent"
+              className="w-full px-4 py-3 rounded-xl border text-gray-700 border-green-300 focus:border-green-500 focus:ring-green-500 focus:outline-none transition"
             />
-            <label className="absolute left-4 top-3 text-gray-400 text-base peer-placeholder-shown:top-3 peer-placeholder-shown:text-gray-400 peer-placeholder-shown:text-base peer-focus:-top-2 peer-focus:text-green-600 peer-focus:text-sm transition-all">
-              Price
-            </label>
           </div>
 
           {/* Categories */}
