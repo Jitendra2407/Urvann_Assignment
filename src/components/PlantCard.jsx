@@ -4,7 +4,6 @@ import Image from "next/image";
 
 
 export default function PlantCard({ plant }) {
-  console.log("Plant data in PlantCard:", plant);
   return (
     <div className="border rounded-2xl shadow-md hover:shadow-lg transition p-4 flex flex-col bg-white/80">
       <div className="w-full aspect-[5/4] relative mb-4">
