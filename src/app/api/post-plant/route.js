@@ -2,6 +2,7 @@ import { connectToDatabase } from "@/lib/mongodb";
 import Plant from "@/models/Plant";
 import { NextResponse } from "next/server";
 import { z } from "zod";
+import jwt from "jsonwebtoken";
 
 // Zod schema for plant validation
 const plantSchema = z.object({
@@ -14,12 +15,34 @@ const plantSchema = z.object({
 
 export async function POST(req) {
   try {
-    const body = await req.json();
+    const authHeader = req.headers.get("authorization");
+    if (!authHeader || !authHeader.startsWith("Bearer ")) {
+      return NextResponse.json({ message: "Unauthorized" }, { status: 401 });
+    }
 
+    const token = authHeader.split(" ")[1];
+
+    let decoded;
+    try {
+      decoded = jwt.verify(token, process.env.JWT_SECRET);
+    } catch (err) {
+      return NextResponse.json(
+        { message: "Invalid or expired token" },
+        { status: 401 }
+      );
+    }
+
+    if (!decoded.isAdmin) {
+      return NextResponse.json(
+        { message: "Forbidden: Admins only" },
+        { status: 403 }
+      );
+    }
+
+    const body = await req.json();
     const validatedData = plantSchema.parse(body);
 
     await connectToDatabase();
-
     const plant = await Plant.create(validatedData);
 
     return NextResponse.json(plant, { status: 201 });
@@ -27,6 +50,7 @@ export async function POST(req) {
     if (err instanceof z.ZodError) {
       return NextResponse.json({ errors: err.errors }, { status: 400 });
     }
+
     console.error(err);
     return NextResponse.json({ message: "Server error" }, { status: 500 });
   }

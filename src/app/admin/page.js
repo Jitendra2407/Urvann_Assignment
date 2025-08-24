@@ -1,10 +1,14 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import Background from "@/components/Background";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
+const PROFILE_API = "/api/admin";
+const PLANTS_API = "/api/post-plant";
+const UPLOAD_API = "/api/image-upload";
 
 const categories = [
   "Indoor",
@@ -15,13 +19,46 @@ const categories = [
 ];
 
 export default function PlantNurseryDashboard() {
+  const router = useRouter();
+
+  // ---------- Auth State ----------
+  const [loadingAuth, setLoadingAuth] = useState(true);
+  const [isAdmin, setIsAdmin] = useState(false);
+
+  // ---------- Form State ----------
   const [name, setName] = useState("");
   const [price, setPrice] = useState("");
   const [selectedCategories, setSelectedCategories] = useState([]);
   const [inStock, setInStock] = useState(true);
   const [imageFile, setImageFile] = useState(null);
 
+  // ---------- Submission State ----------
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
+  // ---------- Check Admin Permissions ----------
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    if (!token) return router.push("/login");
+
+    fetch(PROFILE_API, { headers: { Authorization: `Bearer ${token}` } })
+      .then((res) => res.json())
+      .then((data) => {
+        if (!data.isAdmin) router.push("/"); // redirect non-admin
+        else setIsAdmin(true);
+      })
+      .catch(() => router.push("/login"))
+      .finally(() => setLoadingAuth(false));
+  }, [router]);
+
+  if (loadingAuth) {
+    return (
+      <div className="flex items-center justify-center h-screen">
+        <p className="text-green-700 text-lg">Checking permissions...</p>
+      </div>
+    );
+  }
+
+  // ---------- Category Selection ----------
   const handleCategoryChange = (category) => {
     if (selectedCategories.includes(category)) {
       setSelectedCategories(selectedCategories.filter((c) => c !== category));
@@ -30,25 +67,62 @@ export default function PlantNurseryDashboard() {
     }
   };
 
-  const handleSubmit = (e) => {
+  // ---------- Form Submission ----------
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    const newPlant = {
-      name,
-      price,
-      categories: selectedCategories,
-      inStock,
-      imageFile, // now sending the file
-    };
-    console.log("Plant added:", newPlant);
+    if (!imageFile) return alert("Please select an image");
 
-    // Reset form
-    setName("");
-    setPrice("");
-    setSelectedCategories([]);
-    setInStock(true);
-    setImageFile(null);
+    setIsSubmitting(true);
+
+    try {
+      const token = localStorage.getItem("token");
+
+      // 1️⃣ Upload image to Cloudinary
+      const formData = new FormData();
+      formData.append("file", imageFile);
+
+      const uploadRes = await fetch(UPLOAD_API, {
+        method: "POST",
+        body: formData,
+      });
+      if (!uploadRes.ok) throw new Error("Image upload failed");
+
+      const { imageUrl } = await uploadRes.json();
+
+      const payload = {
+        name,
+        price: Number(price),
+        categories: selectedCategories,
+        inStock,
+        imageUrl,
+      };
+
+      console.log("Submitting plant:", payload);
+
+      const plantRes = await fetch(PLANTS_API, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`,
+        },
+        body: JSON.stringify(payload),
+      });
+
+      if (!plantRes.ok) throw new Error("Failed to add plant");
+
+      // 3️⃣ Reset form & notify
+      setName("");
+      setPrice("");
+      setSelectedCategories([]);
+      setInStock(true);
+      setImageFile(null);
+      alert("Plant added successfully!");
+    } catch (err) {
+      alert(err.message);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
-
 
   return (
     <div className="relative flex flex-col min-h-screen">
@@ -74,7 +148,6 @@ export default function PlantNurseryDashboard() {
               required
               className="peer w-full px-4 py-3 rounded-xl border text-gray-500 border-green-300 focus:border-green-500 focus:ring-green-500 focus:outline-none transition placeholder-transparent"
             />
-
             <label className="absolute left-4 top-3 text-gray-400 text-base peer-placeholder-shown:top-3 peer-placeholder-shown:text-gray-400 peer-placeholder-shown:text-base peer-focus:-top-2 peer-focus:text-green-600 peer-focus:text-sm transition-all">
               Plant Name
             </label>
@@ -116,7 +189,7 @@ export default function PlantNurseryDashboard() {
             </div>
           </div>
 
-          {/* In Stock Toggle */}
+          {/* In Stock */}
           <label className="flex items-center gap-3 mt-2 cursor-pointer">
             <input
               type="checkbox"
@@ -147,9 +220,10 @@ export default function PlantNurseryDashboard() {
           {/* Submit */}
           <button
             type="submit"
-            className="bg-gradient-to-r from-green-500 to-green-700 text-white py-3 rounded-xl font-semibold shadow-lg transition-transform hover:scale-105"
+            disabled={isSubmitting}
+            className="bg-gradient-to-r from-green-500 to-green-700 text-white py-3 rounded-xl font-semibold shadow-lg transition-transform hover:scale-105 disabled:opacity-50"
           >
-            Add Plant
+            {isSubmitting ? "Adding..." : "Add Plant"}
           </button>
         </form>
       </main>
