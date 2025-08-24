@@ -39,6 +39,7 @@ export default function PlantsPage() {
         page: currentPage,
         limit: itemsPerPage,
       });
+      console.log("Fetching plants with query:", query.toString());
 
       const res = await fetch(`/api/plants?${query.toString()}`);
       const data = await res.json();

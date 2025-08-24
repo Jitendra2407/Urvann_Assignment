@@ -3,52 +3,51 @@ import Plant from "@/models/Plant";
 
 export async function GET(req) {
   try {
-    await connectToDatabase(); // ensures Mongoose connection
+    await connectToDatabase();
 
     const { searchParams } = new URL(req.url);
 
-    let q = searchParams.get("q");
-    let category = searchParams.get("category");
-    let inStock = searchParams.get("inStock");
-    let page = parseInt(searchParams.get("page") || "1", 10);
-    let limit = parseInt(searchParams.get("limit") || "10", 10);
-    let sort = searchParams.get("sort");
+    const q = searchParams.get("q");
+    const category = searchParams.get("category");
+    const inStock = searchParams.get("inStock");
+    const page = parseInt(searchParams.get("page") || "1", 10);
+    const limit = parseInt(searchParams.get("limit") || "10", 10);
+    const sort = searchParams.get("sort");
 
-    // Build filter object
-    const filter = {};
+    const filter = [];
 
     if (q) {
-      filter.$text = { $search: q }; // uses text index on name + categories
+      filter.push({
+        $or: [
+          { name: { $regex: q, $options: "i" } },
+          { categories: { $regex: q, $options: "i" } },
+        ],
+      });
     }
 
     if (category) {
-      filter.categories = category; // exact match in categories array
+      filter.push({ categories: category });
     }
 
     if (inStock !== null && inStock !== undefined) {
-      filter.inStock = inStock === "true";
+      filter.push({ inStock: inStock === "true" });
     }
 
-    // ↕Sorting
+    const finalFilter = filter.length > 0 ? { $and: filter } : {};
+
     let sortOption = {};
     if (sort) {
       const [field, order] = sort.split(":");
       sortOption[field] = order === "desc" ? -1 : 1;
     }
 
-    // Query DB
-    const total = await Plant.countDocuments(filter);
-    const results = await Plant.find(filter)
+    const total = await Plant.countDocuments(finalFilter);
+    const results = await Plant.find(finalFilter)
       .sort(sortOption)
       .skip((page - 1) * limit)
       .limit(limit);
 
-    return Response.json({
-      total,
-      page,
-      limit,
-      results,
-    });
+    return Response.json({ total, page, limit, results });
   } catch (error) {
     console.error("Error fetching plants:", error);
     return new Response(JSON.stringify({ error: "Failed to fetch plants" }), {
@@ -56,6 +55,7 @@ export async function GET(req) {
     });
   }
 }
+
 
 
 //1. Get first page, 10 plants:
